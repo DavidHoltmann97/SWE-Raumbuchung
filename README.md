@@ -1,3 +1,0 @@
-# SWE-Raumbuchung
-
-Foo Bar
