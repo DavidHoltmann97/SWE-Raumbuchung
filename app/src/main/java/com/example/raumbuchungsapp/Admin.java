@@ -1,5 +1,11 @@
 // Kommentarzeile
 
+/*
+
+Multiple Kommentarzeilen hier
+
+ */
+
 package com.example.raumbuchungsapp;
 
 import androidx.annotation.NonNull;
