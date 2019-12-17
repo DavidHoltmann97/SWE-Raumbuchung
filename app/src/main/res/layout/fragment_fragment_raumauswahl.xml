@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_raumauswahl" >
+
+    <EditText
+        android:id="@+id/editText16"
+        android:layout_width="131dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:ems="10"
+        android:hint="Mo 19 Nov"
+        android:inputType="date"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <EditText
+        android:id="@+id/editText14"
+        android:layout_width="91dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginLeft="164dp"
+        android:ems="10"
+        android:hint="12:00"
+        android:inputType="time"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <EditText
+        android:id="@+id/editText15"
+        android:layout_width="91dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:ems="10"
+        android:hint="11:00"
+        android:inputType="time"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <EditText
+        android:id="@+id/editText18"
+        android:layout_width="91dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:ems="10"
+        android:hint="11:00"
+        android:inputType="time"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <EditText
+        android:id="@+id/editText19"
+        android:layout_width="91dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginLeft="172dp"
+        android:ems="10"
+        android:hint="12:00"
+        android:inputType="time"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <EditText
+        android:id="@+id/editText17"
+        android:layout_width="131dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:ems="10"
+        android:hint="Mo 19 Nov"
+        android:inputType="date"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stornieren"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Raumnummer"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Raumnummer"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stornieren"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="241dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="387dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abmelden"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="649dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Neuen Raum buchen"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="649dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
