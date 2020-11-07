@@ -10,6 +10,10 @@
           <option name="url" value="https://github.com/DavidHoltmann97/Fitness.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Jan-HenrikMurach/Smart-Gym-Log.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Lenovo\AndroidStudioProjects" />
